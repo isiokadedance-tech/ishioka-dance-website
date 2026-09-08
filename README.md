@@ -8,3 +8,12 @@
 - スプレッドシート連携: Google Apps Script
 
 GASがJSONを返せない場合は、確認済みの仮情報を表示します。
+
+## GASの設定
+
+1. Apps Scriptの `コード.gs` を `gas/Code.gs` の内容に置き換える
+2. 「デプロイ」→「デプロイを管理」→鉛筆マークを開く
+3. バージョンを「新バージョン」にしてデプロイする
+4. 公開URLへ `?sheet=classes&format=json` を付け、JSONが表示されることを確認する
+
+「クラス・料金」シートでは、`published` が `TRUE` の行だけがホームページに表示されます。
