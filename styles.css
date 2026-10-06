@@ -7,3 +7,5 @@
 /* Floor photo hero */
 .hero-photo{background:#caa996;isolation:isolate}.hero-photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center center}.hero-photo-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,25,35,.08),rgba(20,25,35,.38));z-index:1}.hero-photo .hero-card,.hero-photo .location-tag{z-index:2}.hero-photo .hero-card{color:var(--ink)}
 @media(max-width:850px){.hero-photo{min-height:480px}.hero-photo>img{object-position:center center}}
+/* アフターワーク45の入口カード */
+.audience-card.evening{background:#d99a86}
