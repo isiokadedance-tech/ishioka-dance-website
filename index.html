@@ -58,6 +58,12 @@
 .day-night-home .hero-trial-link{display:none}
 .day-night-home .contact-line-button{background:#08783e;color:#fff;text-align:center}
 .day-night-home .contact-line-button:hover{background:#066232}
+.day-night-home .class-offer{grid-template-columns:minmax(0,1fr) auto}
+.day-night-home #after-work-45{scroll-margin-top:100px}
+@media(max-width:600px){
+  .day-night-home .class-offer{grid-template-columns:1fr;gap:8px}
+  .day-night-home .class-offer .price{text-align:left}
+}
 .day-night-home .contact-actions p{margin:4px 0 0;font-size:1rem}
 @media(max-width:1100px){
   .day-night-home .hero-trial-link{display:inline-flex;align-self:flex-start;margin-bottom:16px}
@@ -85,11 +91,25 @@
       <div class="section-heading reveal"><p class="eyebrow">ONE STUDIO, TWO MOODS</p><h2 id="day-night-title">昼も、夜も。<br>私らしく楽しむ時間。</h2><p>身体を動かす心地よさも、誰かに会う楽しみも。<br>同じ教室で、暮らしに合ったダンスの楽しみ方を。</p></div>
       <div class="mood-grid">
         <article class="mood-card mood-day reveal"><p class="mood-label">DAYTIME <span>昼の楽しみ方</span></p><h3>踊って、笑って、<br>日常に彩りを。</h3><p>明るいフロアで音楽に合わせて身体を動かす。ステップを覚える楽しさと、仲間との会話。自分のペースで続ける、大人の趣味を。</p><p class="mood-caption">社交ダンス・初めての方にも</p><a class="text-link" href="#classes">社交ダンスのご案内 <span>→</span></a></article>
-        <article class="mood-card mood-night reveal"><p class="mood-label">AFTER HOURS <span>夜の楽しみ方</span></p><h3>仕事帰りに<br>ちょっと寄り道。</h3><p>一日の終わりに、音楽と仲間に会うひととき。踊る楽しみをきっかけに、いつもの毎日に少しのときめきを。</p><p class="mood-caption">女性向けクラス「アフターワーク45」</p><a class="text-link" href="#classes">アフターワーク45のご案内 <span>→</span></a></article>
+        <article class="mood-card mood-night reveal"><p class="mood-label">AFTER HOURS <span>夜の楽しみ方</span></p><h3>仕事帰りに<br>ちょっと寄り道。</h3><p>仕事帰りに、ラテンの音楽に合わせて踊りを楽しむひととき。</p><p class="mood-caption">女性向けクラス「アフターワーク45」</p><a class="text-link" href="#after-work-45">アフターワーク45のご案内 <span>→</span></a></article>
       </div><p class="mood-note">ご参加いただける曜日・時間は、各クラスのご案内とレッスン予定をご確認ください。アフターワーク45の開催詳細はお問い合わせください。</p>
     </section>
-    <section class="audience section-wrap" aria-labelledby="choice-title"><div class="section-heading reveal"><p class="eyebrow">FIND YOUR DANCE</p><h2 id="choice-title">好きな時間を、ここから。</h2><p>社交ダンスとアフターワーク45。暮らしに合った楽しみ方を見つけてください。</p></div><div class="audience-grid"><a class="audience-card social reveal" href="#classes"><span class="card-number">01</span><p>大人の趣味・交流に</p><h3>音楽と一緒に、<br>社交ダンス。</h3><span class="card-link">クラス・料金を見る →</span></a><a class="audience-card evening reveal" href="#classes"><span class="card-number">02</span><p>女性のための、自分の時間</p><h3>仲間に会える、<br>アフターワーク45。</h3><span class="card-link">クラスのご案内へ →</span></a></div></section>
-    <section class="classes" id="classes"><div class="section-wrap"><div class="section-heading light reveal"><p class="eyebrow">YAMADA’S CLASSES</p><h2>山田奉東が指導するクラス。</h2><p>石岡ダンス教室の直営講座です。社交ダンスとアフターワーク45をご案内します。</p></div><div class="class-list" id="classes-list" aria-live="polite"></div><p class="data-status" id="data-status"></p></div></section>
+    <section class="audience section-wrap" aria-labelledby="choice-title"><div class="section-heading reveal"><p class="eyebrow">FIND YOUR DANCE</p><h2 id="choice-title">好きな時間を、ここから。</h2><p>社交ダンスとアフターワーク45。暮らしに合った楽しみ方を見つけてください。</p></div><div class="audience-grid"><a class="audience-card social reveal" href="#classes"><span class="card-number">01</span><p>大人の趣味・交流に</p><h3>音楽と一緒に、<br>社交ダンス。</h3><span class="card-link">クラス・料金を見る →</span></a><a class="audience-card evening reveal" href="#after-work-45"><span class="card-number">02</span><p>女性のための、自分の時間</p><h3>仲間に会える、<br>アフターワーク45。</h3><span class="card-link">クラスのご案内へ →</span></a></div></section>
+    <section class="classes" id="classes"><div class="section-wrap"><div class="section-heading light reveal"><p class="eyebrow">YAMADA’S CLASSES</p><h2>山田奉東が指導するクラス。</h2><p>石岡ダンス教室の直営講座です。社交ダンスとアフターワーク45をご案内します。</p></div><div class="class-list" id="classes-list" aria-live="polite"></div><p class="data-status" id="data-status"></p>
+      <div class="class-list">
+        <article class="class-card class-offer">
+          <div><span class="category">社交ダンス</span><h3>個人レッスン</h3></div>
+          <p class="price">25分 4,000円</p>
+        </article>
+        <article class="class-card class-offer">
+          <div><span class="category">社交ダンス</span><h3>ダンスタイム</h3><p>毎週火曜・木曜 13:30〜14:30。山田奉東がアテンドします。どなたでもご参加いただけます。</p></div>
+          <p class="price">1回 1,100円</p>
+        </article>
+        <article class="class-card class-offer" id="after-work-45">
+          <div><h3>アフターワーク45</h3><p>ラテンの音楽に合わせて踊りを楽しむ、女性向けのクラスです。</p></div>
+          <p class="price">初回体験無料</p>
+        </article>
+      </div></div></section>
     <section class="external-programs section-wrap" aria-labelledby="external-title"><div class="section-heading reveal"><p class="eyebrow">RENTAL STUDIO</p><h2 id="external-title">外部講師の講座も開催しています。</h2><p>石岡ダンス教室はフロアを提供しています。講座の運営・月謝管理は、それぞれの主催者が行っています。</p></div><div class="external-grid"><article class="external-card reveal"><span class="external-label">外部主催</span><h3>キッズクラス</h3><p>福田沙織先生が主催・運営する講座です。</p></article><article class="external-card reveal"><span class="external-label">外部主催</span><h3>ウーマンボディーラボ</h3><p>竹村園子先生が主催・運営する講座です。</p></article></div><a class="button secondary-button reveal" href="rental-studio.html">レンタルスタジオの詳細を見る <span>→</span></a></section>
     <section class="schedule section-wrap" id="schedule"><div class="section-heading reveal"><p class="eyebrow">LESSON SCHEDULE</p><h2>レッスン予定。</h2><p>最新の開催予定をご確認いただけます。見学・体験をご希望の方はお気軽にご相談ください。</p></div><div class="calendar-frame reveal"><iframe title="石岡ダンス教室のレッスン予定" src="https://calendar.google.com/calendar/embed?src=77ab774a41d6ee8f0085127efd8ce728a2bd8bb5959e93572e5c4011a7b18e6c%40group.calendar.google.com&ctz=Asia%2FTokyo" loading="lazy" frameborder="0" scrolling="no"></iframe></div></section>
     <section class="blog-teaser section-wrap" aria-labelledby="blog-title"><div class="section-heading reveal"><p class="eyebrow">FROM THE BLOG</p><h2 id="blog-title">教室からのお知らせ。</h2><p>クラスのこと、初めての方に知ってほしいこと、教室の日々をお届けします。</p></div><div class="blog-teaser-grid"><a class="blog-teaser-card reveal" href="blog/posts/halloween-dance-contest-judge.html"><span class="blog-date">お知らせ</span><h3>ハロウィンダンスコンテストの審査員として参加します</h3><p>自治体主催のハロウィンイベント内で開催されるダンスコンテストに、外部審査員として参加します。</p><span class="card-link">記事を読む →</span></a><a class="blog-teaser-card reveal" href="blog/"><span class="blog-date">BLOG</span><h3>初心者向けの記事を読む</h3><p>キッズダンス、ボディラボ、社交ダンスの情報をまとめています。</p><span class="card-link">ブログ一覧へ →</span></a></div></section>
@@ -101,6 +121,7 @@
       <div class="contact-inner">
         <p class="eyebrow">TRIAL LESSON</p>
         <h2>まずは、教室の雰囲気を<br>見に来ませんか？</h2>
+        <p><strong>アフターワーク45は初回体験無料です。</strong></p>
         <div class="contact-actions">
           <a class="button contact-line-button" href="https://line.me/R/ti/p/@439bidcb" onclick="gtag('event', 'line_friend_click', {link_location: 'contact'})" target="_blank" rel="noopener">LINEで見学・体験を相談する</a>
           <p>LINEで、見学・体験のご希望と、参加しやすい曜日をお知らせください。クラスは未定でも大丈夫です。</p>
@@ -112,4 +133,3 @@
   <script src="script.js"></script>
 <noscript><style>.reveal{opacity:1;transform:none}</style></noscript></body>
 </html>
-
